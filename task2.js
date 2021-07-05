@@ -1,9 +1,11 @@
 //function that takes array of numbers and returns average value
 let avr = (array) => {
 	if (array instanceof Array == false) {
-		return "Not an Array";}
+		return "Not an Array";
+	}
 	if (array.length == 0) {
-		return "empty";}
+		return "empty";
+	}
 
 	let sum = 0;
 

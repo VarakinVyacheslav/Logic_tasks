@@ -2,13 +2,16 @@
 //Function that takes array of numbers and checks if array is sorted (returns true or false)
 let is_Sorted = (array) => {
 	if (array instanceof Array == false) {
-		return "Not an Array";}
+		return "Not an Array";
+	}
 	if (array.length == 0) {	//if array is empty, he can't be called sorted
-		return "Need at least one element";}
+		return "Need at least one element";
+	}
 
 	for (let i = 0; i < array.length; i++) {
 		if (array[i] > array [i + 1]) {
-			return false;}
+			return false;
+		}
 	}
 
 	return true;

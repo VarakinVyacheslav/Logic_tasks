@@ -1,7 +1,8 @@
 //Function that takes array of numbers and returns minimum and maximum values
 let min_max = (array) => {
 	if (Array.isArray(array) == false) {
-		return "Not array";}
+		return "Not array";
+	}
 
 	let min = Infinity;
 	let max = -Infinity;
