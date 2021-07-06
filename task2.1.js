@@ -11,7 +11,7 @@ let factorial = (n) => {
 	}
 
 	return n * factorial(n - 1);
-}
+} 
 
 console.log( factorial(-2) );
 console.log( factorial(0) );
