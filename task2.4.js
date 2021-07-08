@@ -2,18 +2,18 @@
 var subject = concat("");
 
 function concat(str) {
-	if (str == "") {
-		return "";
-	}
-	if (str == null) {
-		return console.log(subject);
-	}
-	
-	function add() {
-		subject += str;
-	}
-	
-	add(str);
+    if (str == "") {
+        return "";
+    }
+    if (str == null) {
+        return console.log(subject);
+    }
+
+    function add() {
+        subject += str;
+    }
+
+    add(str);
 }
 
 concat("Hello");

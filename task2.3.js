@@ -1,15 +1,15 @@
 //string reversing function
 let reverse = (str) => {
-	let result = "";
+    let result = "";
 
-	for(let i = (str.length - 1); i >= 0; i--) {
-		result += str[i];
-	}
+    for (let i = (str.length - 1); i >= 0; i--) {
+        result += str[i];
+    }
 
-	return result;
+    return result;
 }
 
-console.log( reverse("") );
-console.log( reverse("a") );
-console.log( reverse("ab") );
-console.log( reverse("Hello") );
+console.log(reverse(""));
+console.log(reverse("a"));
+console.log(reverse("ab"));
+console.log(reverse("Hello"));
