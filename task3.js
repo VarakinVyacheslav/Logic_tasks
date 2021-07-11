@@ -4,11 +4,8 @@ let dubl_check = (array) => {
         set.add(array[i].id);
     }
 
-    let new_array = [];
-    for (let i of set.keys()) {
-        let obj = { "id": i };
-        new_array.push(obj);
-    }
+    let new_array = Array.from(set, x => { return { id: x } });
+
     return new_array;
 }
 

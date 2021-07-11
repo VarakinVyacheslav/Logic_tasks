@@ -6,9 +6,8 @@ const sarah = {
     }
 }
 
-let { name, hiringDate } = sarah.job;
-
 function printJobName(user) {
+    let { name } = user.job;
     console.log(name);
 }
 
