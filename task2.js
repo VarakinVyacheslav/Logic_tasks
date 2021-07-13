@@ -6,8 +6,7 @@ const sarah = {
     }
 }
 
-function printJobName(user) {
-    let { name } = user.job;
+function printJobName({ job: { name } }) {
     console.log(name);
 }
 
