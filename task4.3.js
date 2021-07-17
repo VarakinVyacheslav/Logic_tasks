@@ -5,7 +5,7 @@ class User {
         this.age = age;
     }
     print() {
-        console.log(`Name: ${this.firstName}; Last Name: ${this.lastName}; age: ${this.age}`);
+        console.log(`Name: ${this.firstName}; Last Name: ${this.lastName}; age: ${this.age}; role: ${((this.role == null) || (this.role == false)) ? "User" : "Admin"}`);
     }
 }
 
@@ -20,3 +20,5 @@ const user = new User('John', 'Connor', '32');
 user.print();
 const admin = new Admin('Name', 'Surname', 35, true)
 admin.print();
+const admin2 = new Admin('Name2', 'Surname2', 35, false)
+admin2.print();
