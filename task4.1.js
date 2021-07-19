@@ -3,5 +3,4 @@ function calc() {
 
 }
 
-let boundFunc = calc.bind({ a: 2, b: 3 });
-console.log(boundFunc());
+console.log(calc.apply({ a: 2, b: 3 }));
